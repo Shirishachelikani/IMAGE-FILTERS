@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Filters </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="naturepic">
+        <img id="image" src="sample.jpg" alt="sample">
+    </div>
+    <div class="filter-buttons">
+        <button onclick="applyFilter('none')">Original</button>
+        <button onclick="applyFilter('grayscale')">Grayscale</button>
+        <button onclick="applyFilter('sepia')">Sepia</button>
+        <button onclick="applyFilter('blur')">Blur</button>
+        <button onclick="applyFilter('brightness')">Brightness</button>
+        <button onclick="applyFilter('contrast')">Contrast</button>
+    </div>
+    <script src="script.js"> </script>
+</body>
+</html>
