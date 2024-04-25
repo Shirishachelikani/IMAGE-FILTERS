@@ -1,22 +1,25 @@
- #naturepic {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100vh;
-    }
-    #image {
-        max-width: 100%;
-        max-height: 100%;
-    }
-    .filter-buttons {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-    .filter-buttons button {
-        margin: 0 10px;
-        padding: 10px 20px;
-        font-size: 16px;
-        cursor: pointer;
-    }
 
+    #naturepic { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+#image {
+    max-width: 100%;
+    max-height: 100%;
+}
+.filter-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+.filter-buttons button {  
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(29, 166, 208);
+    border-radius: 10px;
+    border-color: #0000;
+}
